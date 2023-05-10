@@ -1,0 +1,32 @@
+.card-header {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    border: none;
+}
+
+.ToSignUp, .ToLogIn {
+    color: #28a745;
+    cursor: pointer;
+}
+
+.ToSignUp:hover, .ToLogIn:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e6e6e6;
+  }
+
+
+
+
