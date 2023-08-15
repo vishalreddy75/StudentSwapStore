@@ -1,0 +1,37 @@
+{
+  "name": "studentswapstorenew",
+  "version": "1.0.0",
+  "description": "This is a in-college application through which students can exchange their essentials.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && npm run deploy:gh-pages",
+    "deploy:gh-pages": "git subtree push --prefix dist origin gh-pages",
+    "build": "ejs-cli ./views -o ./dist --extension .html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalreddy75/StudentSwapStore.git"
+  },
+  "author": "Vishal Reddy Bommineni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalreddy75/StudentSwapStore/issues"
+  },
+  "homepage": "https://github.com/vishalreddy75/StudentSwapStore#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "ejs-cli": "^2.2.3"
+  }
+}
